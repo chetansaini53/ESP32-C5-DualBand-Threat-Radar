@@ -1,0 +1,91 @@
+<svg viewBox="0 0 680 700" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, Segoe UI, Roboto, sans-serif">
+<rect x="0" y="0" width="680" height="700" fill="#ffffff"/>
+<text x="20" y="28" font-size="16" fill="#1e293b" font-weight="500">ESP32-C5  to  1.3" OLED  —  I2C wiring</text>
+
+<!-- board body -->
+<rect x="296" y="70" width="88" height="514" rx="8" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="340" y="320" text-anchor="middle" font-size="13" fill="#64748b" transform="rotate(-90 340 320)">ESP32-C5 DevKit</text>
+<rect x="324" y="576" width="32" height="14" rx="2" fill="#94a3b8"/>
+<text x="340" y="600" text-anchor="middle" font-size="9" fill="#64748b">USB</text>
+
+<!-- LEFT header J1 -->
+<text x="250" y="62" text-anchor="middle" font-size="10" fill="#64748b">J1 (left)</text>
+<g font-size="12" fill="#ffffff" text-anchor="middle">
+<rect x="206" y="72"  width="88" height="30" rx="4" fill="#2563eb"/><text x="250" y="92">3V3</text>
+<rect x="206" y="104" width="88" height="30" rx="4" fill="#64748b"/><text x="250" y="124">RST</text>
+<rect x="206" y="136" width="88" height="30" rx="4" fill="#27ae60"/><text x="250" y="156">GPIO2</text>
+<rect x="206" y="168" width="88" height="30" rx="4" fill="#27ae60"/><text x="250" y="188">GPIO3</text>
+<rect x="206" y="200" width="88" height="30" rx="4" fill="#27ae60"/><text x="250" y="220">GPIO0</text>
+<rect x="206" y="232" width="88" height="30" rx="4" fill="#27ae60"/><text x="250" y="252">GPIO1</text>
+<rect x="206" y="264" width="88" height="30" rx="4" fill="#dc2626"/><text x="250" y="284">GPIO6</text>
+<rect x="206" y="296" width="88" height="30" rx="4" fill="#dc2626"/><text x="250" y="316">GPIO7</text>
+<rect x="206" y="328" width="88" height="30" rx="4" fill="#dc2626"/><text x="250" y="348">GPIO8</text>
+<rect x="206" y="360" width="88" height="30" rx="4" fill="#dc2626"/><text x="250" y="380">GPIO9</text>
+<rect x="206" y="392" width="88" height="30" rx="4" fill="#dc2626"/><text x="250" y="412">GPIO10</text>
+<rect x="206" y="424" width="88" height="30" rx="4" fill="#d97706"/><text x="250" y="444">GPIO26</text>
+<rect x="206" y="456" width="88" height="30" rx="4" fill="#d97706"/><text x="250" y="476">GPIO25</text>
+<rect x="206" y="488" width="88" height="30" rx="4" fill="#ea580c"/><text x="250" y="508">5V</text>
+<rect x="206" y="520" width="88" height="30" rx="4" fill="#475569"/><text x="250" y="540">GND</text>
+<rect x="206" y="552" width="88" height="30" rx="4" fill="#cbd5e1"/><text x="250" y="572" fill="#1e293b">NC</text>
+</g>
+
+<!-- RIGHT header J3 -->
+<text x="430" y="62" text-anchor="middle" font-size="10" fill="#64748b">J3 (right)</text>
+<g font-size="12" fill="#ffffff" text-anchor="middle">
+<rect x="386" y="72"  width="88" height="30" rx="4" fill="#475569"/><text x="430" y="92">GND</text>
+<rect x="386" y="104" width="88" height="30" rx="4" fill="#d97706"/><text x="430" y="124">GPIO11 TX</text>
+<rect x="386" y="136" width="88" height="30" rx="4" fill="#d97706"/><text x="430" y="156">GPIO12 RX</text>
+<rect x="386" y="168" width="88" height="30" rx="4" fill="#27ae60"/><text x="430" y="188">GPIO24</text>
+<rect x="386" y="200" width="88" height="30" rx="4" fill="#27ae60"/><text x="430" y="220">GPIO23</text>
+<rect x="386" y="232" width="88" height="30" rx="4" fill="#27ae60"/><text x="430" y="252">GPIO15</text>
+<rect x="386" y="264" width="88" height="30" rx="4" fill="#d97706"/><text x="430" y="284">GPIO27</text>
+<rect x="386" y="296" width="88" height="30" rx="4" fill="#27ae60"/><text x="430" y="316">GPIO4</text>
+<rect x="386" y="328" width="88" height="30" rx="4" fill="#27ae60"/><text x="430" y="348">GPIO5</text>
+<rect x="386" y="360" width="88" height="30" rx="4" fill="#cbd5e1"/><text x="430" y="380" fill="#1e293b">NC</text>
+<rect x="386" y="392" width="88" height="30" rx="4" fill="#d97706"/><text x="430" y="412">GPIO28</text>
+<rect x="386" y="424" width="88" height="30" rx="4" fill="#475569"/><text x="430" y="444">GND</text>
+<rect x="386" y="456" width="88" height="30" rx="4" fill="#d97706"/><text x="430" y="476">GPIO14</text>
+<rect x="386" y="488" width="88" height="30" rx="4" fill="#d97706"/><text x="430" y="508">GPIO13</text>
+<rect x="386" y="520" width="88" height="30" rx="4" fill="#475569"/><text x="430" y="540">GND</text>
+<rect x="386" y="552" width="88" height="30" rx="4" fill="#cbd5e1"/><text x="430" y="572" fill="#1e293b">NC</text>
+</g>
+
+<!-- highlight rings on the 4 connection targets -->
+<g fill="none" stroke="#f59e0b" stroke-width="3">
+<rect x="203" y="69"  width="94" height="36" rx="6"/>
+<rect x="383" y="69"  width="94" height="36" rx="6"/>
+<rect x="383" y="165" width="94" height="36" rx="6"/>
+<rect x="383" y="197" width="94" height="36" rx="6"/>
+</g>
+
+<!-- OLED module -->
+<rect x="512" y="92" width="152" height="132" rx="8" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="595" y="130" text-anchor="middle" font-size="13" fill="#1e293b">1.3" OLED</text>
+<text x="595" y="148" text-anchor="middle" font-size="10" fill="#64748b">SH1106 / SSD1306</text>
+<text x="595" y="162" text-anchor="middle" font-size="10" fill="#64748b">128 x 64 . I2C</text>
+<g font-size="10" fill="#1e293b" text-anchor="start">
+<circle cx="512" cy="110" r="5" fill="#475569"/><text x="524" y="114">GND</text>
+<circle cx="512" cy="140" r="5" fill="#dc2626"/><text x="524" y="144">VCC</text>
+<circle cx="512" cy="170" r="5" fill="#d97706"/><text x="524" y="174">SCL</text>
+<circle cx="512" cy="200" r="5" fill="#2563eb"/><text x="524" y="204">SDA</text>
+</g>
+
+<!-- wires -->
+<g fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M512 110 L496 110 L496 87 L477 87" stroke="#475569"/>
+<path d="M512 140 L512 44 L250 44 L250 69" stroke="#dc2626"/>
+<path d="M512 170 L496 170 L496 183 L477 183" stroke="#d97706"/>
+<path d="M512 200 L490 200 L490 215 L477 215" stroke="#2563eb"/>
+</g>
+
+<!-- legend -->
+<g font-size="11" fill="#475569" text-anchor="start">
+<rect x="20"  y="606" width="14" height="14" rx="3" fill="#27ae60"/><text x="40"  y="617">safe — use for SDA / SCL</text>
+<rect x="300" y="606" width="14" height="14" rx="3" fill="#dc2626"/><text x="320" y="617">flash pins 6–11 — never use</text>
+<rect x="20"  y="632" width="14" height="14" rx="3" fill="#d97706"/><text x="40"  y="643">avoid: UART / USB / strapping</text>
+<rect x="300" y="632" width="14" height="14" rx="3" fill="#2563eb"/><text x="320" y="643">3V3</text>
+<rect x="360" y="632" width="14" height="14" rx="3" fill="#475569"/><text x="380" y="643">GND</text>
+</g>
+
+<text x="20" y="678" font-size="11" fill="#64748b">OLED:  GND→GND   VCC→3V3 (not 5V)   SCL→GPIO24   SDA→GPIO23.  Clone boards may differ — match by GPIO number; firmware auto-finds any safe pin.</text>
+</svg>

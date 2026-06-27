@@ -1,0 +1,11 @@
+# build artifacts
+/build/
+/build_c5/
+*.bin
+*.elf
+*.map
+
+# editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
