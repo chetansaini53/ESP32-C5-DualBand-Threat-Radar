@@ -2,6 +2,12 @@
 
 A pocket **defensive wireless monitor** for the **ESP32-C5 + a 1.3″ I2C OLED**. It passively watches the air on **both the 2.4 GHz and 5 GHz bands** and flags nearby wireless attacks on its screen in real time — **detection only, it never attacks.**
 
+| 🟢 Live radar — SECURE | 🔴 Threat detected — ALERT |
+|:---:|:---:|
+| ![radar](docs/radar.jpg) | ![alert](docs/alert.jpg) |
+
+*ESP32-C5 + 1.3″ I2C OLED prototype — live SECURE status (left) and a BLE-spam ALERT (right).*
+
 > 📡 **Dual-band — this is the upgrade.** Most ESP32 deauth detectors are 2.4 GHz-only (the chip has no 5 GHz radio). The ESP32-C5 has a real dual-band Wi-Fi 6 radio, so this build also sees **5 GHz deauth/attacks and 5 GHz networks**. A live `5g` counter on screen (and in the serial log) proves management frames are actually arriving on 5 GHz channels.
 
 > Built to learn how the attacks work by building the thing that catches them. Offense → defense.
@@ -11,16 +17,6 @@ A pocket **defensive wireless monitor** for the **ESP32-C5 + a 1.3″ I2C OLED**
 ![band](https://img.shields.io/badge/band-2.4%20%2B%205GHz-success)
 ![license](https://img.shields.io/badge/license-MIT-lightgrey)
 ![purpose](https://img.shields.io/badge/purpose-educational%20%2F%20defensive-orange)
-
----
-
-## 📸 Screenshots
-
-The OLED shows a big **SECURE / THREAT** banner, compact per-protocol tiles, and live `rx` / `5g` counters. On an attack it flips to a full-screen inverted **ALERT** with the attacker + target MAC and the band.
-
-| Live radar (SECURE) | Threat detected (ALERT) |
-|:---:|:---:|
-| ![radar](docs/radar.jpg) | ![alert](docs/alert.jpg) |
 
 ---
 
